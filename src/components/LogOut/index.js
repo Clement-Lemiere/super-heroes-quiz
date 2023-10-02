@@ -16,7 +16,7 @@ const LogOut = () => {
             setTimeout(() => {
                 signOut(auth)
                 .then(() => {
-                    navigate('/login', { replace: true });
+                    navigate('/');
                 })
             }, 1000)
         }

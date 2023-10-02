@@ -10,6 +10,7 @@ import SignUp from '../SignUp';
 import ErrorPage from '../ErrorPage';
 import LogOut from '../LogOut';
 import Quiz from '../Quiz';
+import ForgetPassword from '../ForgetPassword';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path='/signUp' element={<SignUp />} />
       <Route path='/logOut' element={<LogOut />} />
       <Route path='/quiz' element={<Quiz />} />
+      <Route path='/forgetPassword' element={<ForgetPassword />} />
       <Route path='*' element={<ErrorPage />} />
 
       </Routes>
