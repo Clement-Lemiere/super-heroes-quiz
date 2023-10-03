@@ -24,7 +24,7 @@ const ForgetPassword = () => {
 
             setTimeout(() => {
                 navigate('/login');
-            }, 5000);
+            }, 55000);
 
         })
         .catch((error) => {
